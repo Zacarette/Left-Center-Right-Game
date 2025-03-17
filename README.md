@@ -2,23 +2,23 @@
 ## About the Game
 Left Center Right (LCR) is a multiplayer dice game where players roll dice and pass chips according to specific rules. The goal is to win all of the chips, and the game continues until only one player remains with chips. This project simulates the LCR game using C++.
 ## Files
-###`GameClass.h`
+### GameClass.h
 Contains the `gameInfo` class that manages the game's logic. It handles:  
 - Displaying the game rules.  
 - Adding players to the game.  
 - Managing each player's turn, including rolling dice and passing chips.  
 - Checking for a winner.  
 - Running the game loop.
-###`LRCrules.txt`
+### LRCrules.txt
 This text file contains the official rules for playing Left Center Right (LCR):  
 - **Dice:** Each die has the letters L, R, and C, which direct where the player’s chips are passed. Dots on the die do nothing.  
 - **Chips:** Players start with three chips, and the number of dice they roll depends on the number of chips they have.  
 - **Winning the Game:** The game ends when one player has all the chips.
-###`PlayerClass.h`
+### PlayerClass.h
 Defines the `PlayerInfo` class, which stores information about each player, including their name and the number of chips they have. It also includes methods to:  
 - Get and set the player’s name and chip count.  
 - Receive chips from other players.
-###`RunGame.cpp`
+### RunGame.cpp
 Contains the main() function, which starts the game. It initializes the gameInfo object, runs the game setup and loop, and exits when the game is over.
 ## Installation
 1. **Clone the repositry in Git Bash:**
