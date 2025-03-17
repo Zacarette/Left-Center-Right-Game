@@ -22,7 +22,7 @@ Defines the `PlayerInfo` class, which stores information about each player, incl
 Contains the main() function, which starts the game. It initializes the gameInfo object, runs the game setup and loop, and exits when the game is over.
 ## Installation
 1. **Clone the repositry in Git Bash:**
-   `git clone https://github.com/Zacarette/SNHU-IT-312.git`
+   `git clone https://github.com/Zacarette/Left-Center-Right-Game.git`
 2. Ensure that the C++ compiler (e.g., g++ or Visual Studio) is installed.
 3. Compile and run the program.
 ## Usage
